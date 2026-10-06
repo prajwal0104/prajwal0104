@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 Currently working on a cricket auction SaaS platform<br>👯 Open to collaborating on software & backend projects<br>🌱 Currently learning Django, React & advanced backend development<br>💬 Ask me about Java, Python, C#, SQL & problem solving<br>🏏 Fun fact: I code by day and play cricket whenever I get the chance
+🔭 Currently working on a cricket auction SaaS platform<br>👯 Open to collaborating on software & backend projects<br>🌱 Currently learning Django, React & advanced backend development<br>💬 Ask me about Java, Python, SQL & problem solving<br>🏏 Fun fact: I code by day and play cricket whenever I get the chance
 
 
 # 💻 Tech Stack:
