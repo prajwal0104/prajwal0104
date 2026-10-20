@@ -7,31 +7,31 @@
 
 ---
 
-# 🚀 Featured Engineering Projects & Systems Portfolio
+# 🚀 Featured Engineering Systems (12 Production Projects)
 
-Explore architecture specifications, technical dossiers, and live interactive working models across **12 production-grade engineering systems**:
+Experience interactive simulations and full architectural breakdowns of my **12 production systems**:
 
-> 🌐 **Live Interactive Working Model Playground**:  
-> Test interactive browser simulations of all 12 systems directly in your browser:  
-> 👉 **[https://prajwal0104.github.io/portfolio/](https://prajwal0104.github.io/portfolio/)**  
+> 🌐 **Interactive Working Model Playground**:  
+> Test live interactive browser simulations of all 12 systems directly in your browser:  
+> 👉 **[https://prajwal0104.github.io/portfolio/](https://prajwal0104.github.io/portfolio/)** *(No coding knowledge required — interactive simulations for everyone!)*  
 > 📚 **Complete Documentation Catalog**: [prajwal0104/portfolio](https://github.com/prajwal0104/portfolio)
 
-### Master Systems Directory
+### 🌟 Project Directory (In Plain English)
 
-| # | System Name | Focus & Domain | Core Stack | Architecture & Specs | Live Working Model |
-|---|-------------|----------------|------------|:--------------------:|:------------------:|
-| 1 | **Autonomous Web Agent** | Goal-Driven Browser Automation & Extraction | Playwright, Pydantic v2, LLM | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/autonomous-web-agent.md) | [Try Live](https://prajwal0104.github.io/portfolio/#autonomous-web-agent) |
-| 2 | **FinTrack Platform** | Full-Stack Financial Ledger & Telemetry | React, TypeScript, ASP.NET Core | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/fintrack.md) | [Try Live](https://prajwal0104.github.io/portfolio/#fintrack) |
-| 3 | **A11y Sentinel** | Automated WCAG 2.1 AA Accessibility Auditor | BeautifulSoup4, Playwright, Rich | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/a11y-sentinel.md) | [Try Live](https://prajwal0104.github.io/portfolio/#a11y-sentinel) |
-| 4 | **CareerForge AI** | Resume Skill Gap & Job Alignment Engine | BeautifulSoup4, Pydantic v2, NLP | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/career-forge-ai.md) | [Try Live](https://prajwal0104.github.io/portfolio/#career-forge-ai) |
-| 5 | **PriceRadar Core** | E-Commerce Arbitrage & Deal Glitch Detector | BeautifulSoup4, Pydantic v2, Playwright | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/price-radar-core.md) | [Try Live](https://prajwal0104.github.io/portfolio/#price-radar-core) |
-| 6 | **SEC Insight Engine** | SEC EDGAR 10-K/10-Q Balance Sheet Auditor | BeautifulSoup4, Pydantic v2, SEC API | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/sec-insight-engine.md) | [Try Live](https://prajwal0104.github.io/portfolio/#sec-insight-engine) |
-| 7 | **OmniResearch Core** | Deep Web Fact Synthesizer & Contradiction Radar | BeautifulSoup4, Pydantic v2, AI Radar | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/omni-research-core.md) | [Try Live](https://prajwal0104.github.io/portfolio/#omni-research-core) |
-| 8 | **FlowRPA Core** | Browser RPA with Self-Healing Selectors | Playwright, Pydantic v2, Levenshtein | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/flow-rpa-core.md) | [Try Live](https://prajwal0104.github.io/portfolio/#flow-rpa-core) |
-| 9 | **CyberProbe AI** | OWASP HTTP Security Header & Attack Auditor | Playwright, Pydantic v2, OWASP | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/cyber-probe-ai.md) | [Try Live](https://prajwal0104.github.io/portfolio/#cyber-probe-ai) |
-| 10 | **AeroRoute Agent** | Multi-Hop Flight & Pareto Layover Optimizer | Playwright, Pydantic v2, Pareto | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/aero-route-agent.md) | [Try Live](https://prajwal0104.github.io/portfolio/#aero-route-agent) |
-| 11 | **CleanDOM Crawler** | Semantic Web Scraper & RAG Chunking Engine | BeautifulSoup4, Pydantic v2, RAG | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/clean-dom-crawler.md) | [Try Live](https://prajwal0104.github.io/portfolio/#clean-dom-crawler) |
-| 12 | **UITest Forge** | UI Bug Hunter & Standalone Pytest Synthesizer | Playwright, Pydantic v2, Pytest | [View Specs](https://github.com/prajwal0104/portfolio/blob/main/projects/ui-test-forge.md) | [Try Live](https://prajwal0104.github.io/portfolio/#ui-test-forge) |
+| # | Project Name | What It Does (Plain English) | Real-World Analogy | Live Working Model |
+|---|--------------|------------------------------|--------------------|:------------------:|
+| 1 | **Autonomous Web Agent** | Browses websites, clicks buttons, and extracts data automatically. | Like a lightning-fast digital intern researching the web for you. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#autonomous-web-agent) |
+| 2 | **FinTrack Platform** | Tracks personal money, predicts emergency runway, and categorizes bills. | Like a pocket financial advisor telling you how many months your money will last. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#fintrack) |
+| 3 | **A11y Sentinel** | Audits websites so visually impaired people can read them, and auto-fixes code. | Like adding wheelchair ramps and Braille to a website automatically. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#a11y-sentinel) |
+| 4 | **CareerForge AI** | Compares your resume to any job description and gives you an action checklist. | Like a senior recruiter whispering the exact keywords hiring managers want. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#career-forge-ai) |
+| 5 | **PriceRadar Core** | Monitors online stores 24/7 and sounds an alarm when items drop in price. | Like an eagle-eyed bargain shopper checking 1,000 stores every minute. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#price-radar-core) |
+| 6 | **SEC Insight Engine** | Reads government financial filings for companies and grades their financial health. | Like a health checkup for a company to see if it's drowning in debt. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#sec-insight-engine) |
+| 7 | **OmniResearch Core** | Researches complex topics across articles, filters fake news, and spots contradictions. | Like sending 10 investigative journalists to summarize a topic in 30 seconds. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#omni-research-core) |
+| 8 | **FlowRPA Core** | Automates website tasks without breaking, even if the website redesigns. | A bot with eyes: if a button moves, it tracks it down and finishes the job. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#flow-rpa-core) |
+| 9 | **CyberProbe AI** | Inspects websites for security holes, unsafe cookies, and hacker vulnerabilities. | Like a security guard checking if windows are locked and alarms are active. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#cyber-probe-ai) |
+| 10 | **AeroRoute Agent** | Finds sweet-spot flights that save hundreds of dollars with comfortable layovers. | Standard sites sort by cheapest or fastest; AeroRoute finds the sweet spot. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#aero-route-agent) |
+| 11 | **CleanDOM Crawler** | Strips popups, banner ads, and tracking scripts from web pages. | Turns a messy, ad-cluttered magazine page into a clean, distraction-free book. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#clean-dom-crawler) |
+| 12 | **UITest Forge** | Clicks every button on a website, hunts for bugs, and writes automated tests. | A quality tester making sure nothing is broken before real customers arrive. | [▶ Try Live](https://prajwal0104.github.io/portfolio/#ui-test-forge) |
 
 ---
 
