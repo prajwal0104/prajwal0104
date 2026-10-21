@@ -23,16 +23,16 @@
 
   <!-- Progress Bar -->
   <rect x="26" y="70" width="398" height="10" rx="5" fill="#334155"/>
-  <rect x="26" y="70" width="328" height="10" rx="3" fill="#e34c26"/><rect x="355" y="70" width="69" height="10" rx="3" fill="#3572A5"/>
+  <rect x="26" y="70" width="362" height="10" rx="3" fill="#e34c26"/><rect x="389" y="70" width="35" height="10" rx="3" fill="#3572A5"/>
 
   <!-- Legends -->
   <g transform="translate(26, 104)">
           <circle cx="5" cy="5" r="5" fill="#e34c26"/>
           <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">HTML</text>
-          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">82.5%</text>
+          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">91.0%</text>
         </g><g transform="translate(216, 104)">
           <circle cx="5" cy="5" r="5" fill="#3572A5"/>
           <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Python</text>
-          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">17.5%</text>
+          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">9.0%</text>
         </g>
 </svg>
