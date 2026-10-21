@@ -23,24 +23,16 @@
 
   <!-- Progress Bar -->
   <rect x="26" y="70" width="398" height="10" rx="5" fill="#334155"/>
-  <rect x="26" y="70" width="258" height="10" rx="3" fill="#3572A5"/><rect x="285" y="70" width="51" height="10" rx="3" fill="#178600"/><rect x="337" y="70" width="51" height="10" rx="3" fill="#3178c6"/><rect x="389" y="70" width="34" height="10" rx="3" fill="#e34c26"/>
+  <rect x="26" y="70" width="328" height="10" rx="3" fill="#e34c26"/><rect x="355" y="70" width="69" height="10" rx="3" fill="#3572A5"/>
 
   <!-- Legends -->
   <g transform="translate(26, 104)">
-          <circle cx="5" cy="5" r="5" fill="#3572A5"/>
-          <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Python</text>
-          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">64.9%</text>
-        </g><g transform="translate(216, 104)">
-          <circle cx="5" cy="5" r="5" fill="#178600"/>
-          <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">C#</text>
-          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">12.9%</text>
-        </g><g transform="translate(26, 128)">
-          <circle cx="5" cy="5" r="5" fill="#3178c6"/>
-          <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">TypeScript</text>
-          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">12.7%</text>
-        </g><g transform="translate(216, 128)">
           <circle cx="5" cy="5" r="5" fill="#e34c26"/>
           <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">HTML</text>
-          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">8.6%</text>
+          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">82.5%</text>
+        </g><g transform="translate(216, 104)">
+          <circle cx="5" cy="5" r="5" fill="#3572A5"/>
+          <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Python</text>
+          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">17.5%</text>
         </g>
 </svg>
