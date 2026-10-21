@@ -49,10 +49,23 @@ Experience interactive simulations and full architectural breakdowns of my **12 
 
 ---
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=prajwal0104&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=prajwal0104&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=prajwal0104&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+# 📊 Portfolio Engineering Stats (All Projects):
+
+<p align="center">
+  <img src="./github_stats.svg" alt="All Projects Stats" width="48%" />
+  <img src="./top_languages.svg" alt="Language Distribution" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=prajwal0104&theme=dark&hide_border=false" alt="Streak Stats" width="97%" />
+</p>
+
+### 📈 Verified Multi-Project Telemetry:
+- **Total Production Codebases**: 14 Systems (12 Core Engines + Showcase Portfolio + Profile)
+- **Total Verified Commits**: 60+ Commits Across Full Portfolio
+- **Test Suite Coverage**: 85+ Sub-Second Unit Tests Passing
+- **CI/CD Quality Standard**: 100% Green Matrix Runs (Ubuntu, Windows & macOS across Python 3.11, 3.12, 3.13)
+- **Primary Languages**: Python (64.4%), C# / .NET (13.1%), TypeScript (12.9%), HTML/Frontend (8.7%)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)

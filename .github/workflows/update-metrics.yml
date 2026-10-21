@@ -1,0 +1,44 @@
+name: Update Portfolio Metrics
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+      - 'generate_metrics.py'
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate Metric SVGs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python generate_metrics.py
+
+      - name: Commit & Push if Changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github_stats.svg top_languages.svg
+          if git diff --staged --quiet; then
+            echo "No metric changes detected."
+          else
+            git commit -m "chore: update portfolio metrics & language distribution [skip ci]"
+            git push origin main
+          fi
