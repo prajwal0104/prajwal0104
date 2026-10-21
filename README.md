@@ -12,8 +12,8 @@
 Experience interactive simulations and full architectural breakdowns of my **12 production systems**:
 
 > 🌐 **Interactive Working Model Playground**:  
-> Test live interactive browser simulations of all 12 systems directly in your browser:  
-> 👉 **[https://prajwal0104.github.io/portfolio/](https://prajwal0104.github.io/portfolio/)** *(No coding knowledge required — interactive simulations for everyone!)*  
+> Input real data (financial numbers, HTML markup, HTTP headers, flight itineraries, job requirements) and run real-time execution engines for all 12 systems directly in your browser:  
+> 👉 **[https://prajwal0104.github.io/portfolio/](https://prajwal0104.github.io/portfolio/)** *(Enter your own data or click 1-click presets — see real computed outputs!)*  
 > 📚 **Complete Documentation Catalog**: [prajwal0104/portfolio](https://github.com/prajwal0104/portfolio)
 
 ### 🌟 Project Directory (In Plain English)
