@@ -52,8 +52,8 @@ Experience interactive simulations and full architectural breakdowns of my **12 
 # 📊 Portfolio Engineering Stats (All Projects):
 
 <p align="center">
-  <img src="./github_stats.svg" alt="All Projects Stats" width="48%" />
-  <img src="./top_languages.svg" alt="Language Distribution" width="48%" />
+  <img src="https://raw.githubusercontent.com/prajwal0104/prajwal0104/main/github_stats.svg" alt="All Projects Stats" width="48%" />
+  <img src="https://raw.githubusercontent.com/prajwal0104/prajwal0104/main/top_languages.svg" alt="Language Distribution" width="48%" />
 </p>
 
 <p align="center">
