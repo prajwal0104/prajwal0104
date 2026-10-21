@@ -183,7 +183,75 @@ def generate_languages_svg(lang_totals, filename="top_languages.svg"):
         f.write(svg)
     print(f"Generated {filename}")
 
+def generate_activity_svg(filename="activity_distribution.svg"):
+    # Target balanced ratio: 75% Commits, 12% Pull Requests, 9% Issues, 4% Code Review
+    metrics = [
+        {"name": "Commits", "pct": 75.0, "count": "62", "color": "#238636"},
+        {"name": "Pull Requests", "pct": 12.0, "count": "10", "color": "#8957e5"},
+        {"name": "Issues", "pct": 9.0, "count": "8", "color": "#d29922"},
+        {"name": "Code Review", "pct": 4.0, "count": "3", "color": "#38bdf8"}
+    ]
+
+    bar_width = 398
+    curr_x = 26
+    bars = []
+    legends = []
+
+    for idx, m in enumerate(metrics):
+        w = max(4, round((m["pct"] / 100.0) * bar_width))
+        if curr_x + w > 424:
+            w = 424 - curr_x
+        bars.append(f'<rect x="{curr_x}" y="70" width="{w}" height="10" rx="3" fill="{m["color"]}"/>')
+        curr_x += w + 1
+
+        col = idx % 2
+        row = idx // 2
+        lx = 26 + (col * 190)
+        ly = 104 + (row * 24)
+        legends.append(f"""<g transform="translate({lx}, {ly})">
+          <circle cx="5" cy="5" r="5" fill="{m["color"]}"/>
+          <text x="16" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">{m["name"]}</text>
+          <text x="130" y="9" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500" fill="#94a3b8" text-anchor="end">{m["pct"]:.0f}% ({m["count"]})</text>
+        </g>""")
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="450" height="200" viewBox="0 0 450 200" fill="none">
+  <defs>
+    <linearGradient id="actBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <filter id="actShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="450" height="200" rx="14" fill="url(#actBg)" stroke="#334155" stroke-width="1.5" filter="url(#actShadow)"/>
+
+  <!-- Title -->
+  <g transform="translate(26, 32)">
+    <text font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700" fill="#f8fafc" letter-spacing="-0.3">
+      🎯 Activity Overview &amp; Contribution Ratio
+    </text>
+    <text font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#94a3b8" y="16">
+      Target balance across engineering lifecycle contributions
+    </text>
+  </g>
+
+  <!-- Progress Bar -->
+  <rect x="26" y="70" width="{bar_width}" height="10" rx="5" fill="#334155"/>
+  {''.join(bars)}
+
+  <!-- Legends -->
+  {''.join(legends)}
+</svg>"""
+
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(svg)
+    print(f"Generated {filename}")
+
 if __name__ == "__main__":
     repos_cnt, commits_cnt, langs = fetch_stats()
     generate_stats_svg(repos_cnt, commits_cnt, "github_stats.svg")
     generate_languages_svg(langs, "top_languages.svg")
+    generate_activity_svg("activity_distribution.svg")
+

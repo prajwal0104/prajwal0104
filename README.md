@@ -52,12 +52,13 @@ Experience interactive simulations and full architectural breakdowns of my **12 
 # 📊 Portfolio Engineering Stats (All Projects):
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/prajwal0104/prajwal0104/main/github_stats.svg" alt="All Projects Stats" width="48%" />
-  <img src="https://raw.githubusercontent.com/prajwal0104/prajwal0104/main/top_languages.svg" alt="Language Distribution" width="48%" />
+  <img src="https://raw.githubusercontent.com/prajwal0104/prajwal0104/main/github_stats.svg" alt="All Projects Stats" width="49%" />
+  <img src="https://raw.githubusercontent.com/prajwal0104/prajwal0104/main/top_languages.svg" alt="Language Distribution" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=prajwal0104&theme=dark&hide_border=false" alt="Streak Stats" width="97%" />
+  <img src="https://raw.githubusercontent.com/prajwal0104/prajwal0104/main/activity_distribution.svg" alt="Activity Overview" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=prajwal0104&theme=dark&hide_border=false" alt="Streak Stats" width="49%" />
 </p>
 
 ### 📈 Verified Multi-Project Telemetry:
